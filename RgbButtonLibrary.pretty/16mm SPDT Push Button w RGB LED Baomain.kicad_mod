@@ -1,0 +1,46 @@
+(footprint "16mm SPDT Push Button w RGB LED Baomain" (version 20221018) (generator pcbnew)
+  (layer "F.Cu")
+  (attr through_hole)
+  (fp_text reference "REF**" (at 0 -10 unlocked) (layer "F.SilkS")
+      (effects (font (size 1 1) (thickness 0.1)))
+    (tstamp 8022aa49-89a0-448e-9732-a02e5213c938)
+  )
+  (fp_text value "16mm SPDT Push Button w RGB LED Baomain" (at 0 10.2 unlocked) (layer "F.Fab")
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 2f58404b-a1c7-469c-81fa-65b8c19c5692)
+  )
+  (fp_text user "${REFERENCE}" (at 0 11.7 unlocked) (layer "F.Fab")
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 86be3934-7f20-4ad2-8820-e92fded6a212)
+  )
+  (fp_circle (center 0 0) (end 8 0)
+    (stroke (width 0.1) (type default)) (fill none) (layer "F.SilkS") (tstamp d1a670aa-be19-445d-a5b9-29fd5f4d4697))
+  (pad "B" thru_hole circle (at 7.5 -1.25) (size 1.524 1.524) (drill 0.762) (layers "*.Cu" "*.Mask") (tstamp 23b6137f-a1de-4132-9d38-45b602deebc8))
+  (pad "COM" thru_hole oval (at -2.5 5) (size 1.524 4) (drill oval 0.762 3.3) (layers "*.Cu" "*.Mask") (tstamp 79c4da99-566f-4752-b44b-4e63453e64c1))
+  (pad "G" thru_hole circle (at -7.5 -1.25) (size 1.524 1.524) (drill 0.762) (layers "*.Cu" "*.Mask") (tstamp 9bc05c14-5f1b-4fe8-acb9-b63b22e4abe2))
+  (pad "GND" thru_hole circle (at 7.5 1.25) (size 1.524 1.524) (drill 0.762) (layers "*.Cu" "*.Mask") (tstamp 5cb43034-d396-48c6-81da-77aa67d95983))
+  (pad "NC" thru_hole oval (at -2.5 -5) (size 1.524 4) (drill oval 0.762 3.3) (layers "*.Cu" "*.Mask") (tstamp 96981863-01b7-4866-9350-cae59f99432e))
+  (pad "NO" thru_hole oval (at -2.5 0) (size 1.524 4) (drill oval 0.762 3.3) (layers "*.Cu" "*.Mask") (tstamp cd572a76-e7a7-47d2-9188-f49361d0083e))
+  (pad "R" thru_hole circle (at -7.5 1.25) (size 1.524 1.524) (drill 0.762) (layers "*.Cu" "*.Mask") (tstamp 85b2e87d-af10-4f13-b09b-631e9a2d4abe))
+  (group "" (id ba2cd077-c599-4794-b843-7691ca1fffba)
+    (members
+      23b6137f-a1de-4132-9d38-45b602deebc8
+      5cb43034-d396-48c6-81da-77aa67d95983
+    )
+  )
+  (group "" (id e1c4a0e3-c4a2-4306-8d6f-e2de9e3e1a9c)
+    (members
+      85b2e87d-af10-4f13-b09b-631e9a2d4abe
+      9bc05c14-5f1b-4fe8-acb9-b63b22e4abe2
+    )
+  )
+  (group "" (id e4bc1001-bd9b-4b41-828c-8687cea8c9b9)
+    (members
+      79c4da99-566f-4752-b44b-4e63453e64c1
+      96981863-01b7-4866-9350-cae59f99432e
+      ba2cd077-c599-4794-b843-7691ca1fffba
+      cd572a76-e7a7-47d2-9188-f49361d0083e
+      e1c4a0e3-c4a2-4306-8d6f-e2de9e3e1a9c
+    )
+  )
+)
